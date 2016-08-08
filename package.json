@@ -1,0 +1,21 @@
+{
+  "name": "react-tsx-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "normalize.css": "^4.2.0",
+    "react-addons-css-transition-group": "^15.3.0",
+    "react-addons-update": "^15.3.0",
+    "react-toolbox": "^1.1.1",
+    "react-tsx": "^1.0.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && browserify src/index.js -o www/index.js && node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

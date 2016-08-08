@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "isolatedModules": false,
+        "moduleResolution": "node",
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "src/**/*.ts",
+        "node_modules/react-tsx/**/*.d.ts"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": false,
+    "files": [
+        "src/index.ts",
+        "node_modules/react-tsx/js/index.d.ts",
+        "node_modules/react-tsx/js/src/react-tsx.d.ts",
+        "node_modules/react-tsx/ts/typings/globals/react-tap-event-plugin/index.d.ts",
+        "node_modules/react-tsx/ts/typings/globals/react/index.d.ts",
+        "node_modules/react-tsx/ts/typings/index.d.ts",
+        "node_modules/react-tsx/ts/typings/modules/react-dom/index.d.ts",
+        "node_modules/react-tsx/ts/typings/modules/react-router/index.d.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
