@@ -11,10 +11,14 @@
     "react-toolbox": "^1.1.1",
     "react-tsx": "^1.0.14"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && browserify src/index.js -o www/index.js && node server.js"
+    "start": "./node_modules/.bin/tsc && ./node_modules/.bin/browserify src/index.js -o www/index.js && node server.js"
   },
   "author": "",
   "license": "ISC"
